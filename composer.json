@@ -1,0 +1,19 @@
+{
+  "name": "maursilveira/drupal-recipe-search",
+  "description": "Drupal recipe for setting up search using Solr.",
+  "keywords": ["Drupal", "recipe", "search", "Solr"],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Mauricio Silveira (maursilveira)",
+      "homepage": "https://www.drupal.org/u/maursilveira",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/core": "^10.4 || ^11",
+    "drupal/search_api": "^1.38",
+    "drupal/search_api_solr": "^4.3"
+  }
+}
